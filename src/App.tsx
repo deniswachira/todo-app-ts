@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { TodoProvider } from './contexts/TodoContext';
 import TodoInput from './components/TodoInput';
 import TodoList from './components/TodoList';
-import darkModeIcon from './assets/icon-moon.svg';
 import './App.scss';
 
 const App: React.FC = () => {
